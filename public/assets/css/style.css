@@ -335,7 +335,7 @@ html[data-w-dynpage] [data-w-cloak] {
 .w-digipants-badge,
 .w-digipants-badge * {
     z-index: auto;
-    visibility: visible;
+    visibility: hidden;
     box-sizing: border-box;
     width: auto;
     height: auto;
@@ -346,7 +346,7 @@ html[data-w-dynpage] [data-w-cloak] {
     float: none;
     clear: none;
     box-shadow: none;
-    opacity: 1;
+    opacity: 0;
     direction: ltr;
     font-family: inherit;
     font-weight: inherit;
@@ -374,7 +374,7 @@ html[data-w-dynpage] [data-w-cloak] {
     padding: 0;
     list-style-type: disc;
     transition: none;
-    display: block;
+    display: none;
     position: static;
     top: auto;
     bottom: auto;
@@ -388,7 +388,7 @@ html[data-w-dynpage] [data-w-cloak] {
     white-space: nowrap;
     cursor: pointer;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
-    visibility: visible !important;
+    visibility: hidden !important;
     z-index: 2147483647 !important;
     color: #aaadb0 !important;
     opacity: 1 !important;
@@ -401,7 +401,7 @@ html[data-w-dynpage] [data-w-cloak] {
     font-size: 12px !important;
     line-height: 14px !important;
     text-decoration: none !important;
-    display: inline-block !important;
+    display: none !important;
     position: fixed !important;
     top: auto !important;
     bottom: 12px !important;
@@ -412,10 +412,10 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 
 .w-digipants-badge>img {
-    visibility: visible !important;
+    visibility: hidden !important;
     opacity: 1 !important;
     vertical-align: middle !important;
-    display: inline-block !important;
+    display: none !important;
 }
 
 h1,
